@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.navbar {
+  background-color: #1f2937;
+  color: white;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home {
+  padding: 30px;
+}
+
+.student-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.student-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.student-form button,
+.student-card button {
+  padding: 10px 14px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.student-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.student-card {
+  background-color: white;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.active-msg {
+  color: green;
+  font-weight: bold;
+}
+
+.error-box {
+  padding: 30px;
+  background-color: #fee2e2;
+  color: #991b1b;
+  margin: 30px;
+  border-radius: 8px;
+}
