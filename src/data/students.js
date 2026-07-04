@@ -23,7 +23,7 @@ const students = [
   {
     id: 4,
     name: "Joly",
-    department: "Techinical",
+    department: "CMA",
     cgpa: 2.35,
     isActive: false,
   },
@@ -35,7 +35,7 @@ const students = [
     isActive: true,
   },
   {
-    id: 5,
+    id: 6,
     name: "Sojol",
     department: "CSE",
     cgpa: 3.15,
